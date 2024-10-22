@@ -6,6 +6,7 @@ only:
 cache: node_modules # кеширование
 install:
 - npm install # команда установки зависимостей
-build: off
+build: 
+- echo "No build step required"
 test:
 - npm run lint && npm test # скрипт сборки
